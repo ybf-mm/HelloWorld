@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Integer[] nums = {-1,0,1,2,-10000,-4000};
+        Integer[] nums = {-1,0,1,2,-10000000,-4000};
         int i=10;
         List<List<Integer>> threeSum = threeSum(nums);
         System.out.println(threeSum);
